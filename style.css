@@ -1,0 +1,70 @@
+/* 
+font-family: Arial Rounded MT Bold
+color: #04a84f   verde ,   #3298fb   azul,  #7f7f7f  gris
+*/
+
+
+/*Default style*/
+body {
+  padding: 0px 90px 0px 90px;
+  font-style: Arial "Rounded";
+}
+
+/*gridLayout*/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+}
+
+/*navbar*/
+
+.navbar{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.navbar li{
+  float: left;
+  width: 230px;
+  height: 40px;
+  background: black;
+  opacity: .8;
+  line-height: 40px;
+  text-align: center;
+  font-size: 20px;
+  margin-right: 2px;
+}
+
+.navbar li a{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.navbar li a:hover{
+  background: #3298fb;
+}
+
+.navbar li .navbar li {
+  display: none;
+}
+
+.navbar li:hover .navbar li {
+  display: block;
+}
+
+/*footer*/
+
+.contac {
+  background: black;
+}
+
+footer pre { 
+  text-align: center;
+}
