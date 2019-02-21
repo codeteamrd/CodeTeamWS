@@ -1,6 +1,6 @@
 /* 
 font-family: Arial Rounded MT Bold
-color: #04a84f   verde ,   #3298fb   azul,  #7f7f7f  gris
+color: #04a84f verde ,#3298fb azul,#7f7f7f gris
 */
 
 
@@ -8,6 +8,19 @@ color: #04a84f   verde ,   #3298fb   azul,  #7f7f7f  gris
 body {
   padding: 0px 90px 0px 90px;
   font-style: Arial "Rounded";
+}
+
+/*text*/
+
+p.ha { /*headerArial*/
+  font-size: 30px;
+  font-family: Arial;
+  font-weight: bold;
+  text-align: center;
+  background: #3298fb;
+  color: white;
+  padding: 2px 2px 2px 2px;
+  border-radius: 35px;
 }
 
 /*gridLayout*/
@@ -31,7 +44,7 @@ body {
 
 .navbar li{
   float: left;
-  width: 230px;
+  width: 220px;
   height: 40px;
   background: black;
   opacity: .8;
@@ -63,6 +76,7 @@ body {
 
 .contac {
   background: black;
+  margin-top: 500px;
 }
 
 footer pre { 
@@ -72,17 +86,69 @@ footer pre {
 .fproducto {
   background: #3298fb;
   padding: 50px 0px 50px;
+  border-radius: 35px;
 }
 
-.fproducto p {
+.fproducto pre {
   color: white;
   font-family: Arial, 'Rounded';
   font-size: 19px;
   font-weight: bold;
+  border: 1 solid;
 
   padding: 55px;
+  
 }
 
 .fcliente {
-  
+  background: #7f7f7f;
+  padding: 50px 0px 50px;
+  border-radius: 35px;
 }
+
+.fcliente pre{
+  color: white;
+  font-family: Arial, 'Rounded';
+  font-size: 25px;
+  font-weight: bold; 
+
+  text-align: left; 
+
+}
+
+.fcliente div div p {
+  color: white;
+  font-family: Arial, 'Rounded';
+  font-size: 19px;
+  font-style: italic;
+  text-align: center;
+}
+
+.fcliente div div img {
+  margin: 0px 0px 0px 100px;
+}
+
+/*gallery*/
+
+div.gallery {
+  margin: 10px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
