@@ -7,7 +7,7 @@ color: #04a84f verde ,#3298fb azul,#7f7f7f gris
 /*Default style*/
 body {
   padding: 0px 90px 0px 90px;
-  font-style: Arial "Rounded";
+  font-style: Arial;
 }
 
 /*text*/
@@ -28,10 +28,10 @@ p.ha { /*headerArial*/
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  padding: 0px;
+  padding: 20px;
 }
 .grid-item {
-  padding: 0px;
+  padding: 20px;
 }
 
 /*navbar*/
@@ -74,15 +74,6 @@ p.ha { /*headerArial*/
 
 /*footer*/
 
-.contac {
-  background: black;
-  margin-top: 500px;
-}
-
-footer pre { 
-  text-align: center;
-}
-
 .fproducto {
   background: #3298fb;
   padding: 50px 0px 50px;
@@ -95,7 +86,7 @@ footer pre {
   font-size: 19px;
   font-weight: bold;
   border: 1 solid;
-
+  text-align: center;
   padding: 55px;
   
 }
@@ -111,7 +102,6 @@ footer pre {
   font-family: Arial, 'Rounded';
   font-size: 25px;
   font-weight: bold; 
-
   text-align: left; 
 
 }
@@ -126,6 +116,23 @@ footer pre {
 
 .fcliente div div img {
   margin: 0px 0px 0px 100px;
+}
+
+.fcontac {
+  background: #303030;
+  margin-top: 500px;
+  padding: 50px 0px 50px;
+  border-radius: 5px;
+  color: white;
+  
+}
+
+.fcontac ul {
+  list-style: none;
+}
+
+.fcontac address {
+  color: rgb(110, 109, 109);;
 }
 
 /*gallery*/
@@ -149,6 +156,12 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
+}
+
+div.gallery-scroll {
+  overflow: scroll;
+  width: 1150px;
+  height: 400px
 }
 
 
