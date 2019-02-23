@@ -72,6 +72,28 @@ p.ha { /*headerArial*/
   display: block;
 }
 
+/*butoon*/
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+ .btn1 {
+  background-color: #008CBA; 
+  color: white; 
+  border: 6px solid black;
+  border-radius: 60px;
+}
+
 /*footer*/
 
 .fproducto {
@@ -120,11 +142,10 @@ p.ha { /*headerArial*/
 
 .fcontac {
   background: #303030;
-  margin-top: 500px;
+  margin: 0px;
   padding: 50px 0px 50px;
   border-radius: 5px;
   color: white;
-  
 }
 
 .fcontac ul {
@@ -132,7 +153,8 @@ p.ha { /*headerArial*/
 }
 
 .fcontac address {
-  color: rgb(110, 109, 109);;
+  color: rgb(110, 109, 109);
+  text-align: center;
 }
 
 /*gallery*/
