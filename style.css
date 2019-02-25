@@ -140,6 +140,7 @@ button {
   margin: 0px 0px 0px 100px;
 }
 
+
 .fcontac {
   background: #303030;
   margin: 0px;
@@ -156,6 +157,32 @@ button {
   color: rgb(110, 109, 109);
   text-align: center;
 }
+
+/*container*/
+
+.primaryc {
+  background: #3298fb;
+  padding: 50px 0px 50px;
+  border-radius: 35px;
+  margin: 50px;
+}
+
+.primaryc .title {
+  color: white;
+}
+
+.opaquec {
+  background: #7f7f7f;
+  padding: 50px 0px 50px;
+  border-radius: 35px;
+  margin: 500px;
+}
+
+.opaquec .title{
+  color: white;
+  font-size: 11;
+}
+
 
 /*gallery*/
 
